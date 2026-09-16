@@ -3,19 +3,23 @@
 // successful online visit. This file must be a real, separately-hosted
 // file (not inlined) for offline caching to work reliably across reloads.
 
-const CACHE_NAME = "csc-exam-protocol-v3";
+const CACHE_NAME = "csc-exam-protocol-v4";
 
 // The HTML page itself gets cached reactively on first navigation below
 // (so this works no matter what you name the HTML file), but everything
-// it depends on — CSS, the app engine, and every exam's question data —
-// has a fixed, known path, so we precache all of it here. This means
-// the app works offline in full (not just the shell) after the very
-// first successful online visit, without waiting for each file to be
-// requested individually first.
+// it depends on — CSS, the app engine, every exam's question data, and
+// the icon files (now external per PWABuilder's requirement, rather
+// than inlined as base64 in manifest.json) — has a fixed, known path,
+// so we precache all of it here. This means the app works offline in
+// full (not just the shell) after the very first successful online
+// visit, without waiting for each file to be requested individually.
 const APP_SHELL = [
   "./manifest.json",
   "./styles.css",
   "./app.js",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+  "./icons/icon-512-maskable.png",
   "./data/bank.js",
   "./data/final-exam.js",
   "./data/mock-1.js",
