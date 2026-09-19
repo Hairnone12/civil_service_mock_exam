@@ -3,7 +3,7 @@
 // successful online visit. This file must be a real, separately-hosted
 // file (not inlined) for offline caching to work reliably across reloads.
 
-const CACHE_NAME = "csc-exam-protocol-v5";
+const CACHE_NAME = "csc-exam-protocol-v6";
 
 // The HTML page itself gets cached reactively on first navigation below
 // (so this works no matter what you name the HTML file), but everything

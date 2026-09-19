@@ -118,35 +118,35 @@
   ],
   "screenshots": [
     {
-      "src": "/civil_service_mock_exam/screenshots/screen-1-dashboard.png",
+      "src": "/civil_service_mock_exam/icons/screen-1-dashboard.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Level dashboard with 20 gated exams"
     },
     {
-      "src": "/civil_service_mock_exam/screenshots/screen-2-quiz.png",
+      "src": "/civil_service_mock_exam/icons/screen-2-quiz.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Timed question with lives and combo streak"
     },
     {
-      "src": "/civil_service_mock_exam/screenshots/screen-3-results.png",
+      "src": "/civil_service_mock_exam/icons/screen-3-results.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Score breakdown by category after each exam"
     },
     {
-      "src": "/civil_service_mock_exam/screenshots/screen-1-dashboard-wide.png",
+      "src": "/civil_service_mock_exam/icons/screen-1-dashboard-wide.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Level dashboard on desktop"
     },
     {
-      "src": "/civil_service_mock_exam/screenshots/screen-2-quiz-wide.png",
+      "src": "/civil_service_mock_exam/icons/screen-2-quiz-wide.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
